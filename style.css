@@ -1,0 +1,79 @@
+@import url('./css/background.css');
+@import url('./css/card.css');
+
+:root {
+    --fundo: #0c192c;
+    --font-color: #F0F0F0; 
+    --font: 'Vast Shadow', cursive;
+    --font-nav: 'Creepster', cursive;
+    --cor-padrao: #0C524B;
+    --cor-padrao-claro: #0EA293;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--font-nav);
+    color: var(--font-color);
+    font-size: 26px;
+    padding: 20px 0px;
+}
+
+
+.container__geral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+
+.container__personagem{
+    border: 1px solid var(--font-color);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.container__informacoes{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    word-break: break-all;
+    color: var(--font-color);
+    text-align: center;
+    font-family: var(--font);
+}
+
+button{
+    background-image: url('img/voice.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    z-index: 1;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: var(--cor-padrao-claro);
+    transition: 900ms;
+}
+
+
+/*scroll webkit*/
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor-padrao);
+}

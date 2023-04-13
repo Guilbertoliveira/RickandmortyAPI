@@ -1,0 +1,40 @@
+body {
+    background-color: var(--fundo);
+    position: relative;
+}
+
+.onda__superior{
+    position: absolute;
+    z-index: -1;
+}
+
+.ondaInferior{
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.ondaInferior__primaria{
+    animation: moveWave1 10s ease-in infinite alternate-reverse;
+}
+
+.ondaInferior__secundaria{
+    animation: moveWave2 10s ease-in infinite alternate;
+}
+
+
+@keyframes moveWave1{
+    from{
+        transform: translate(40%);
+    }
+}
+
+@keyframes moveWave2{
+    from{
+        transform: translate(-50%);
+    }
+   
+   
+}
+
+
