@@ -1,6 +1,6 @@
 
 
-<div align="center"><img src="img/iconerosto.png">
+<div align="center"><img src="img/iconerosto.png" width="45">
 <h1>RickandmortyAPI</h1></div>
 
 <h2>:hammer:Project Status:hammer:</h2>
