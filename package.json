@@ -1,0 +1,12 @@
+{
+  "name": "rickandmortyapi",
+  "version": "1.0.0",
+  "description": "<div align=\"center\"><img src=\"img/iconerosto.png\" width=\"45\">\r <h1>RickandmortyAPI</h1></div>",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
