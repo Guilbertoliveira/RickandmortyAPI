@@ -27,3 +27,10 @@
 
 <h2> Project link </h2>
 
+<h2> API documentation </h2>
+<p>API made available for use is the <a href="https://rickandmortyapi.com/documentation">Rick and Morty</a>
+
+<h2>Using node.js in dependencies</h2>
+<ol>
+<li><p>Need to install node.js on the machine</p></li>
+<li><p>To install the dependencies you need to run the command in the terminal in the visual code `npm install`</p></li><ol>
