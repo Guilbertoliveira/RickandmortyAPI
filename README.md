@@ -4,6 +4,7 @@
 <h1>RickandmortyAPI</h1></div>
 
 <h2>:hammer:Project Status:hammer:</h2>
+<p>In constant improvement</p>
 
 <h2>Project description</h2>
 <p>API made available for learning, was used as a self-taught method</p>
@@ -33,4 +34,7 @@
 <h2>Using node.js in dependencies</h2>
 <ol>
 <li><p>Need to install node.js on the machine</p></li>
-<li><p>To install the dependencies you need to run the command in the terminal in the visual code `npm install`</p></li><ol>
+<li><p>To install the dependencies you need to run the command in the terminal in the visual code `npm install`</p></li></ol>
+
+<h2>Future improvements:</h2>
+<p>I will use the React library in this project</p>
