@@ -1,7 +1,8 @@
 
 
 <div align="center"><img src="img/iconerosto.png" width="45">
-<h1>RickandmortyAPI</h1></div>
+<h1>RickandmortyAPI</h1>
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Guilbertoliveira/RickandmortyAPI" /><img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Guilbertoliveira/RickandmortyAPI" /><img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Guilbertoliveira/RickandmortyAPI" /><img alt="Github License" src="https://img.shields.io/github/license/Guilbertoliveira/RickandmortyAPI" /></div>
 
 <h2>:hammer:Project Status:hammer:</h2>
 <p>In constant improvement</p>
@@ -25,9 +26,6 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" width="45" title="Git"/>
 </div>
 
-
-<h2> Project link </h2>
-
 <h2> API documentation </h2>
 <p>API made available for use is the <a href="https://rickandmortyapi.com/documentation">Rick and Morty</a>
 
@@ -38,3 +36,6 @@
 
 <h2>Future improvements:</h2>
 <p>I will use the React library in this project</p>
+
+<h2>Vercel</h2>
+<a href="https://rickandmorty-lemon.vercel.app/">Link vercel<a/>
