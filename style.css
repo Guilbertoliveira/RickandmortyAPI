@@ -25,7 +25,6 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
 
 }
 
@@ -45,7 +44,7 @@ nav{
     font-family: var(--font);
 }
 
-button{
+#btnVoice{
     background-image: url('img/voice.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -63,7 +62,7 @@ button{
     
 }
 
-button:hover{
+#btnVoice:hover{
     background-color: var(--cor-padrao-claro);
     transition: 900ms;
 }
@@ -76,4 +75,32 @@ button:hover{
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--cor-padrao);
+}
+
+
+.btnVoltar{
+    position: fixed;
+    bottom: 2vh;
+    border: none;
+}
+
+.btnVoltar > a > button:hover{
+    padding: 15px 45px;
+    transform: scale(1.190);
+}
+
+.btnVoltar > a > button{
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: var(--cor-padrao-claro);
+    color: white;
+    padding: 10px 40px;
+}
+
+
+.campoNaoEncontrado{
+    padding-top: 200px;
+    font-family: var(--font-nav);
+    color: var(--font-color);
+    font-size: 45px;
 }

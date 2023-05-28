@@ -16,25 +16,8 @@ async function tela (){
     let turma = await lista;
 
     turma.forEach(element => {
-        console.log(element)
-
-        tratamentoErro(element);
-
-        ctnpai.innerHTML += `<div class="container__personagem">
-        <img src="${element.image}" width="300px">
-        <div class="container__informacoes">
-            <h2>${element.name}</h2>
-            <h3>${element.status}<h3>
-            <h3>${element.species}<h3>
-            <h3>${element.type}<h3>
-            <h3>${element.gender}<h3>
-            <h3>${element.location.name}<h3>
-            <h3>${element.origin.name}<h3>
-            <h3>${element.created}<h3>
-
-        <div>
-    </div>`
-
+        atualizaCampos(element);
+        tratamentoErro(element);   
     });
 }
 
@@ -49,6 +32,25 @@ function tratamentoErro(elements){
     if(elements.location.name === "unknown"){
         elements.location.name = "";
     }
+}
+
+function atualizaCampos (element) {
+    ctnpai.innerHTML += `<div class="container__personagem">
+        <img src="${element.image}" width="300px">
+        <div class="container__informacoes">
+            <h2>${element.name}</h2>
+            <h3>${element.status}<h3>
+            <h3>${element.species}<h3>
+            <h3>${element.type}<h3>
+            <h3>${element.gender}<h3>
+            <h3>${element.location.name}<h3>
+            <h3>${element.origin.name}<h3>
+            <h3>${element.created}<h3>
+
+        <div>
+        
+    </div>`
+
 }
 
 

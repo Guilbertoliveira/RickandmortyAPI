@@ -1,7 +1,7 @@
 .container__personagem:hover {
     border: 1px solid #ffffff44;
-    box-shadow: 0 7px 50px 10px #000000aa;
     transform: scale(1.090);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.20);
     
   }
 
