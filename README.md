@@ -11,8 +11,9 @@
 <p>API made available for learning, was used as a self-taught method</p>
 
 <h2 >Version Mobile</h2>
-
+<img src="https://github.com/Guilbertoliveira/RickandmortyAPI/assets/41201436/d4ce5a35-9b61-4137-9ec0-0b55a94fae12">
 <h2>Version Desktop</h2>
+<img src="https://github.com/Guilbertoliveira/RickandmortyAPI/assets/41201436/8f89bdac-848c-45ea-be88-ec7713ce6fa1">
 
 <h2>Technologies used</h2>
 <div>
