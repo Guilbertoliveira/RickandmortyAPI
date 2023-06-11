@@ -3,7 +3,7 @@
 
 :root {
     --fundo: #0c192c;
-    --font-color: #F0F0F0; 
+    --font-color: #F0F0F0;
     --font: 'Vast Shadow', cursive;
     --font-nav: 'Creepster', cursive;
     --cor-padrao: #0C524B;
@@ -11,13 +11,22 @@
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     font-family: var(--font-nav);
     color: var(--font-color);
     font-size: 26px;
     padding: 20px 0px;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 5px;
+
+    }
 }
 
 
@@ -28,13 +37,13 @@ nav{
 
 }
 
-.container__personagem{
+.container__personagem {
     border: 1px solid var(--font-color);
     margin: 10px;
     border-radius: 5px;
 }
 
-.container__informacoes{
+.container__informacoes {
     display: flex;
     width: 300px;
     flex-direction: column;
@@ -44,7 +53,7 @@ nav{
     font-family: var(--font);
 }
 
-#btnVoice{
+#btnVoice {
     background-image: url('img/voice.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -59,16 +68,17 @@ nav{
     border-radius: 50px;
     border: 0;
     cursor: pointer;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.90);}
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.90);
+}
 
-#btnVoice:hover{
+#btnVoice:hover {
     background-color: var(--cor-padrao-claro);
     transition: 900ms;
 }
 
 
 /*scroll webkit*/
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 5px;
 }
 
@@ -77,18 +87,18 @@ nav{
 }
 
 
-.btnVoltar{
+.btnVoltar {
     position: fixed;
     bottom: 2vh;
     border: none;
 }
 
-.btnVoltar > a > button:hover{
+.btnVoltar>a>button:hover {
     padding: 15px 45px;
     transform: scale(1.190);
 }
 
-.btnVoltar > a > button{
+.btnVoltar>a>button {
     border-radius: 10px;
     border: 1px solid white;
     background-color: var(--cor-padrao-claro);
@@ -101,9 +111,14 @@ nav{
 }
 
 
-.campoNaoEncontrado{
+.campoNaoEncontrado {
     padding-top: 200px;
     font-family: var(--font-nav);
     color: var(--font-color);
     font-size: 45px;
+}
+
+nav>a {
+    text-decoration: none;
+    margin-top: 20px;
 }
